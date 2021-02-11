@@ -8,7 +8,7 @@ const pageLoad = () => {
       this.year = year;
     }
 
-    // az age() olyan mint egy függvény, nem kell return stb.
+    // az age() olyan mint egy függvény
     age() {
       let date = new Date();
       return date.getFullYear() - this.year;
@@ -46,7 +46,6 @@ functionná alakítás:
 
   //console.log(car("Ford", 2014))
 */
-
 
 
 // function
